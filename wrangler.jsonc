@@ -1,0 +1,18 @@
+// wrangler.jsonc
+{
+  "name": "outline-desktop-redirector",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-03-07",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "kv_namespaces": [
+    {
+      "binding": "OUTLINE_HOST",
+      "id": "ae96ab3e3f0d4745be4fa565836ce38a",
+      "preview_id": "<YOUR_PREVIEW_KV_NAMESPACE_ID>"
+    }
+  ]
+}

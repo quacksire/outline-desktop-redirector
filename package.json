@@ -1,0 +1,7 @@
+{
+  "name": "outline-desktop-redirector",
+  "description": "Helps you login to the Outline desktop app with a selfhosted instance.",
+  "scripts": {
+    "dev": "npx wrangler dev"
+  }
+}
